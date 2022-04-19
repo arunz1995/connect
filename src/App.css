@@ -71,7 +71,7 @@ color: #FFFFFF;
 width: 147px;
 height: 49px;
 left: 605px;
-top: 101px;
+top: 91px;
 
 font-family: 'Jura';
 font-style: normal;
@@ -105,6 +105,19 @@ color: #000000;
   border-radius: 7px;
   mix-blend-mode: normal;
   
+  
+}
+.form-field input{
+  background-color: #D4F2F4;
+  border-color: #006F76;
+  border-radius: 7px;
+  height: 26px;
+  width: 220px;
+}
+.signUp-name input{
+  background-color: #D4F2F4;
+  border-color: #006F76;
+  border-radius: 7px;
   
 }
 p1{
