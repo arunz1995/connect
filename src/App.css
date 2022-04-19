@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html,body,#root{
   height: 100%;
 }
@@ -9,7 +14,7 @@ html,body,#root{
 .login{
   background-color: #006F76;
 }
-.signup {
+.signUp {
   background-color: #D4F2F4;
 }
 .login-section{
@@ -28,32 +33,97 @@ html,body,#root{
   font-weight: semi-bold;
 }
 .login-button{
-  margin: auto;
   text-align: center;
-  cursor: pointer;
-  background-color: #006F76;
-  position: absolute;
-  width: 44px;
-  height: 45px;
-  left: 201px;
-  top: 409px;
-  background-image: url(Pin.png);
-  border-radius: 50%; 
+  margin-top: 25px;
 }
+#login{
+  padding: 10px;
+  width:100px;
+  cursor: pointer;
+  
+}
+#btnUp{
+  padding: 10px;
+  width:100px;
+  cursor: pointer;
+}
+
 #name,#password{
   padding: 10px;
   font-size: 20px;
   border-radius: 7px;
   border: none;
   width: 220px;
-  height:15px;
+  height:35px;
   background: rgba(196, 196, 196, 0.9);
   mix-blend-mode: screen;
   font-family: "jura";
+  
 
 }
 p{
   
 text-align: center;
 color: #FFFFFF;
+}
+.signUp-header{
+  position: absolute;
+width: 147px;
+height: 49px;
+left: 605px;
+top: 101px;
+
+font-family: 'Jura';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 43px;
+
+color: #000000;
+}
+.signUp-name{
+  display: flex;
+  gap: 10px;
+  
+}
+.signUp-section{
+  display: grid;
+  padding-left: 10px;
+  gap: 20px;
+  
+}
+.signUp{
+  display: grid;
+  place-items: center;
+  
+}
+.form-field{
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  mix-blend-mode: normal;
+  
+  
+}
+p1{
+  color: #000000;
+  text-align: left;
+}
+.form-button{
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  text-align: center;
+  color: #FFFFFF;
+  
+}
+button{
+ 
+
+color: #FFFFFF;
+background: #006F76;
+mix-blend-mode: normal;
+border-radius: 7px;
 }
