@@ -1,8 +1,10 @@
 import Login from "./Components/Login";
 import Otp from "./Components/Otp";
+import Profile from "./Components/Profile";
 import './App.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import React from 'react';
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
     <Routes>
     <Route path="login" element={<Login/>}/>
     <Route path="otp" element={<Otp/>}/>
+    <Route path="profile" element={<Profile/>}/>
     </Routes>
     
     

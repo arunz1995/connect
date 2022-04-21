@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,body,#root{
+    height: 100%;
+  }
+  .profile-container{
+  display:grid;
+  grid-template-rows: 4fr .5fr;
+  height: 100%;
+  }
+  .profile-top{
+    background-color: #FFFFFF;
+  }
+  .profile-bottom{
+    background-color: #c4c4c4;
+  }
