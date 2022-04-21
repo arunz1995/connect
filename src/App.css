@@ -17,16 +17,16 @@ html,body,#root{
   height: 100%;
 }
 .login{
-  background-color: #006F76;
+  background-color: #C4C4C4;
 }
 .Otp-left{
-  background-color: #006F76;
+  background-color: #C4C4C4;
 }
 .signUp {
-  background-color: #D4F2F4;
+  background-color: #FFFFFF;
 }
 .Otp-right{
-  background-color: #D4F2F4;
+  background-color: #FFFFFF;
   display: grid;
   place-items: center;
   align-content: center;
@@ -39,6 +39,7 @@ html,body,#root{
   margin-top: 200px;
   border-radius: 10px;
   gap:5px;
+  
   
 }
 .Otp-lSection{
@@ -58,14 +59,14 @@ html,body,#root{
 .Otp-header{
   text-align: center;
   font-family: "jura";
-  color:white;
+  color:black;
   font-weight: semi-bold;
 }
 .underline{
-  background-color: #006F76;
+  background-color: #C4C4C4;
   border:none;
   width: 50px;
-  border-bottom: solid 2px #fff;
+  border-bottom: solid 2px black;
   text-align: center;                              
 }
 .Otp-input{
@@ -136,7 +137,7 @@ p2{
 p{
   
 text-align: center;
-color: #FFFFFF;
+color: #000000;
 }
 .signUp-header{
   position: absolute;
@@ -180,15 +181,15 @@ color: #000000;
   
 }
 .form-field input{
-  background-color: #D4F2F4;
-  border-color: #006F76;
+  background-color: #C4C4C4;
+  border-color: #FFFFFF;
   border-radius: 7px;
   height: 26px;
   width: 220px;
 }
 .signUp-name input{
-  background-color: #D4F2F4;
-  border-color: #006F76;
+  background-color: #C4C4C4;
+  border-color: #FFFFFF;
   border-radius: 7px;
   
 }
@@ -208,7 +209,7 @@ button{
  
 
 color: #FFFFFF;
-background: #006F76;
+background: #000000;
 mix-blend-mode: normal;
 border-radius: 7px;
 }
