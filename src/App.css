@@ -11,11 +11,26 @@ html,body,#root{
   grid-template-columns: 1fr 1.5fr;
   height: 100%;
 }
+.Otp-container{
+  display:grid;
+  grid-template-columns: 1fr 1.5fr;
+  height: 100%;
+}
 .login{
+  background-color: #006F76;
+}
+.Otp-left{
   background-color: #006F76;
 }
 .signUp {
   background-color: #D4F2F4;
+}
+.Otp-right{
+  background-color: #D4F2F4;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 50px;
 }
 .login-section{
   display: grid;
@@ -26,11 +41,68 @@ html,body,#root{
   gap:5px;
   
 }
+.Otp-lSection{
+  display: grid;
+  margin: auto;
+  max-width: 50%;
+  margin-top: 200px;
+  border-radius: 10px;
+  gap:5px;
+}
 .login-header{
   text-align: center;
   font-family: "jura";
   color: #FFFFFF;
   font-weight: semi-bold;
+}
+.Otp-header{
+  text-align: center;
+  font-family: "jura";
+  color:white;
+  font-weight: semi-bold;
+}
+.underline{
+  background-color: #006F76;
+  border:none;
+  width: 50px;
+  border-bottom: solid 2px #fff;
+  text-align: center;                              
+}
+.Otp-input{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: #fff;
+  gap: 10px;
+}
+.message-part{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+}
+.message-part-1, .message-part-2{
+  color: white;
+  cursor:pointer;
+  font-family: "jura";
+}
+.Otp-rSection{
+  
+  background-repeat: no-repeat;
+  display: grid;
+  
+}
+.next-Button{
+  margin: auto;
+  cursor: pointer;
+  
+}
+.next-Button img{
+  width:45px;
+ 
+}
+
+p2{
+  color: rgb(14, 13, 13);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 .login-button{
   text-align: center;
