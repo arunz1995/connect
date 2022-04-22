@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './../Components/assets/logo.png'
 // import Right from './Right'
 
 const Login = () => {
@@ -7,7 +8,10 @@ const Login = () => {
     <div className="login">
        <div className="login-section">
          <div className="login-header">
-      <h1> log IN </h1>
+         <img src={logo} alt=""/>
+         <div className="login-header-text">
+           </div>
+      <h1> SOCIUS </h1>
       
          </div>
       <input type="text" placeholder="username" id='name' />

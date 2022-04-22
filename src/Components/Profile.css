@@ -17,3 +17,20 @@
   .profile-bottom{
     background-color: #c4c4c4;
   }
+  .profile-image img{
+    position: absolute;
+    width: 107px;
+    height: 107px;
+    left: 424px;
+    top: 104px;
+    
+    background: #FFFFFF;
+    
+  }
+  .profile-header{
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      place-items: center;
+      text-align: center;
+      margin-top: 220px;
+  }

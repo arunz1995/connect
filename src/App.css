@@ -53,14 +53,19 @@ html,body,#root{
 .login-header{
   text-align: center;
   font-family: "jura";
-  color: #FFFFFF;
+  color: #000000;
   font-weight: semi-bold;
+  display: grid;
+    grid-template-columns: 65px 1fr 4fr;
+    padding-left: 10px;
+    gap: 15px;
 }
 .Otp-header{
   text-align: center;
   font-family: "jura";
   color:black;
   font-weight: semi-bold;
+  
 }
 .underline{
   background-color: #C4C4C4;
@@ -212,4 +217,8 @@ color: #FFFFFF;
 background: #000000;
 mix-blend-mode: normal;
 border-radius: 7px;
+}
+.login-header-text{
+  border-left: solid 2px black;
+  height: 60px;
 }
