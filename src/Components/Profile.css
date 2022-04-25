@@ -21,7 +21,7 @@
     position: absolute;
     width: 107px;
     height: 107px;
-    left: 424px;
+    left: 624px;
     top: 104px;
     
     background: #FFFFFF;
@@ -34,3 +34,22 @@
       text-align: center;
       margin-top: 220px;
   }
+  .profile-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    
+  }
+.profile-bottom img{
+  
+width: 55px;
+height: 53.59px;
+margin-left: 100px;
+
+
+}
+.profile-bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  
+}
