@@ -10,6 +10,7 @@
   display:grid;
   grid-template-rows: 4fr .5fr;
   height: 100%;
+  
   }
   .profile-top{
     background-color: #FFFFFF;
@@ -17,22 +18,21 @@
   .profile-bottom{
     background-color: #c4c4c4;
   }
-  .profile-image img{
-    position: absolute;
-    width: 107px;
-    height: 107px;
-    left: 624px;
-    top: 104px;
-    
-    background: #FFFFFF;
-    
+  .profile-image {
+    border-radius: 50%;
+    border: solid 1px rgb(173, 166, 166);
+    width: 130px;
+    height: 130px;
+    background-color: rgb(243, 244, 245);
+    margin: 0 auto;
+    margin-top: 10px;
   }
   .profile-header{
       display: grid;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr  1fr;
       place-items: center;
       text-align: center;
-      margin-top: 220px;
+      margin-top: 30px;
   }
   .profile-stats {
     display: grid;
@@ -44,12 +44,36 @@
   
 width: 55px;
 height: 53.59px;
-margin-left: 100px;
+margin-left: 110px;
 
 
 }
-.profile-bottom{
+
+
+.settings-icon{
+  top:1px;
+  right:16px;
+  position: absolute;
+  
+}
+.follow-count{
+  border-left: solid black;
+  height: 28px;
+}
+.Follow{
+  display: grid;
+  grid-template-columns: 1fr 5px 1fr;
+  gap : 15px;
+}
+.profileFooter{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  
+
+}
+.dp{
+  place-items: center;
+  padding-left: 20px;
+}
+.dp-cam{
+  padding-left: 60px;
 }

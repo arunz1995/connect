@@ -1,6 +1,6 @@
 import React from 'react'
 import './Profile.css';
-import profile from './../Components/assets/profile.png'; 
+import profile from './../Components/assets/dp.svg'; 
 import imgOne from './../Components/assets/imgOne.svg';
 import imgTwo from './../Components/assets/imgTwo.svg';
 import imgThree from './../Components/assets/imgThree.svg';   
@@ -10,24 +10,30 @@ import post from './../Components/assets/post.svg';
 import search from './../Components/assets/search.svg';
 import notification from './../Components/assets/notification.svg';
 import settings from './../Components/assets/top-right-img.svg';
+import cam from './../Components/assets/camera.svg';
 
 const Profile = () => {
   return (
     <div className="profile-container">
         <div className="profile-top">
+        <div className='settings-icon'>
+          <img src={settings} alt="profile" />
+          <p>Settings</p>
+          </div>
 
             <div className="profile-image">
-             <img src={settings} alt="profile" />
-            <img src={profile} alt=""/>
+            <img className="dp" src={profile} alt=""/>
+            <img className="dp-cam" src={cam} alt=""/>
             
                 </div>
             <div className="profile-header">
             <h1>User Name</h1>
-            <p>user_name@socius.com</p>
+            <p1>user_name@socius.com</p1>
             <div className="Follow">
               <p1>Following</p1>
-              <p3> | </p3>
-              <p2>Followers</p2>
+              <div className="follow-count">
+                </div>
+              <p1>Followers</p1>
               </div>
             </div>
             <div className="profile-stats">
@@ -37,13 +43,29 @@ const Profile = () => {
             </div>
 
             </div>
+            <div className="profileFooter">
         <div className="profile-bottom">
             <img src={home} alt=""/>
+            <p>Home</p>
+            </div>
+            <div className="profile-bottom">
             <img src={chats} alt=""/>
+            <p>Chats</p>
+            </div>
+            <div className="profile-bottom">
             <img src={post} alt=""/>
+            <p>Posts</p>
+            </div>
+            <div className="profile-bottom">
             <img src={search} alt=""/>
+            <p>Search</p>
+            </div>
+            <div className="profile-bottom">
             <img src={notification} alt=""/>
+            <p>Notifications</p>
+            
 
+        </div>
         </div>
     </div>
   )
