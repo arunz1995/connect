@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,body,#root{
+    height: 100%;
+  }
+  .chat-container{
+    background-color: #e5e5e5;
+    height: 100%;
+    
+  }
