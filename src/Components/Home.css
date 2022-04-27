@@ -30,18 +30,40 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-    .Home-top{
+    .homeStory-icon{
         height: 60px;
       width: 60px;
       border-radius: 50%;
       
       background-color: rgba(134, 121, 104, 0.781);
     }
-    .Home-header{
+    .Home-story{
         display: grid;
-        grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px ;
-        gap: 10px;
-        margin-left: 40px;
-        margin-top: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin-left: 10px;
+    }
 
+    .Home-text{
+        color: black;
+        margin-left: 10px;
+        
+    }
+    .Home-header{
+        display:grid;
+        grid-template-rows: auto 1fr;
+        
+    }
+    .Home-story{
+        background-color: #c4c4c4;
+
+    }
+    .Home-body{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+    .Home-body-left{
+        background-color: #965050;
+    }
+    .Home-body-right{
+        background-color: #e7e0e0;
     }

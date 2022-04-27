@@ -10,44 +10,71 @@ const Home = () => {
   return (
     <div className="Home-container">
         <div className="Home-header">
+            <div className="Home-story">
         <div className="Home-top">
-        <div className="Home-text"> <p>Your Story</p> </div>
+            <div className="homeStory-icon"></div>
+        <div className="Home-text"> Your Story </div>
             </div>
             <div className="Home-top">
-            <div className="Home-text">  <p>User 1</p> </div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">  User 1 </div>
             </div>
             <div className="Home-top">
-            <div className="Home-text"> <p>User 2</p> </div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text"> User 2 </div>
             </div>
             <div className="Home-top">
-            <div className="Home-text"><p>User 3</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 3</div>
             </div>
             <div className="Home-top">
-            <div className="Home-text"><p>User 4</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 4</div>
             </div>
             <div className="Home-top">
-            <div className="Home-text"></div><p>User 5</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 5</div>
+            </div>
             <div className="Home-top">
-            <div className="Home-text"></div><p>User 6</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 6</div>
+            </div>
             <div className="Home-top">
-            <div className="Home-text"></div><p>User 7</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 7</div>
+            </div>
             <div className="Home-top">
-            <div className="Home-text"></div><p>User 8</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 8</div>
+            </div>
             <div className="Home-top">
-            <div className="Home-text"></div><p>User 9</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 9</div>
+            </div>
             <div className="Home-top">
-            <div className="Home-text"></div><p>User 10</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 10</div>
+            </div>
             <div className="Home-top">
-            <div className="Home-text"></div><p>User 11</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 11</div>
+            </div>
             <div className="Home-top">
-            <div className="Home-text"></div><p>User 12</p></div>
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 12</div>
+            </div>
             <div className="Home-top">
-            <div className="Home-text"></div><p>User 13</p></div>
-            
-            
-            
-            
-            
+            <div className="homeStory-icon"></div>
+            <div className="Home-text">User 13</div>
+            </div>
+            </div>
+            <div className="Home-body">
+              <div className="Home-body-left">
+                </div>
+                <div className="Home-body-right">
+                    </div>
+            </div> 
+           
             </div>
 
 
