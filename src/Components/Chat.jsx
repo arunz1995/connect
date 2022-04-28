@@ -17,8 +17,8 @@ const Chat = () => {
     </div>
     <div className="chat-body">
     <div className="chat-body-one"></div>
-    <div className="chat-body-one-header"><h2> User 1 </h2></div>
-    <div className="chat-body-one-body"><img src={camera} alt="" /></div>
+    <div className="chat-body-one-header"><h2> User 1 </h2></div><img src={camera} alt="" /></div>
+    <div className="chat-body-one-body">
     <div className="chat-body-one"></div>
     <div className="chat-body-one-header"><h2> User 2 </h2></div>
     <div className="chat-body-one-body"><img src={camera} alt="" /></div>

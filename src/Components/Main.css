@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,body,#root{
+    height: 100%;
+  }
+.homeBody{
+    background-color: #ffff;
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  .homeContainer{
+    display: grid;
+    height: 100%;
+    grid-template-rows: 4fr .5fr ;
+  }
+  .homeFooter{
+    background-color: #C4C4C4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+  }
+  .footerImage img{
+   width: 63px;
+   height: 62px;
+  }
+  .storyIcon{
+    background-color: #787b81;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    padding: 20px;
+  }
+  .homeStory{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: auto;
+  }
+  .homeFeed{
+    display: grid;
+    grid-template-columns: 5fr  3px 1.5fr;
+  
+  }
+  .photoSection{
+    background-color: #ffff; 
+    height: 100%;
+    overflow: auto;
+  }
+  .onlineSection{
+     background-color: #ffff; 
+    height: 100%;
+    display: grid;
+    gap: 10px;
+  }
+  .sectionDivider{
+    border-left: solid black;
+    height: 530px;
+  
+  }
+  #onlineHeading{
+    text-align: center;
+    font-size:30px;
+  }
+  .onlineUser{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+  }
+  .userDp{
+    background-color: #0cc7fb;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .postHeader{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+  }
+  .postedPhoto{
+    background-color: rgb(15, 15, 15);
+    height: 100%;
+    overflow: auto;
+    padding: 0px 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+  }
+  .postReaction{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    padding: 0 220px;
+  }
