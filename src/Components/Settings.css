@@ -7,7 +7,7 @@
     height: 100%;
   }
   .settings-container{
-    background-color: #c4c4c4;
+    background-color: #E1D5D5;
     height: 100%;
     width: 100%;
   }
@@ -35,6 +35,8 @@
     mix-blend-mode: screen;
     font-family: "jura";
     
+    
+    
   }
   .settings-body-content{
       margin-top: 20px;
@@ -42,6 +44,10 @@
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       gap: 20px;
       place-items: center;
+     
       
 
+  }
+  .settings-button{
+    background-color:#c79090;
   }
