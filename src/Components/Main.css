@@ -93,6 +93,10 @@
   }
   .postReaction{
     display: grid;
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto auto auto;
     padding: 0 220px;
+  }
+  #reactionFont{
+    display: grid;
+    grid-template-columns: auto auto auto;
   }

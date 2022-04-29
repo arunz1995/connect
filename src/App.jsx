@@ -4,6 +4,7 @@ import Profile from "./Components/Profile";
 import Chat from "./Components/Chat";
 import Home from "./Components/Home";
 import Main from "./Components/Main";
+import Settings from "./Components/Settings";
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import React from 'react';
@@ -19,6 +20,7 @@ function App() {
     <Route path="Chat" element={<Chat/>}/>
     {/* <Route path="Home" element={<Home/>}/> */}
     <Route path="Main" element={<Main/>}/>
+    <Route path="Settings" element={<Settings/>}/>
     </Routes>
     
     
