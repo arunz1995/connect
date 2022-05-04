@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,body,#root{
+    height: 100%;
+  }
+  .like-container{
+    background-color: #E1D5D5;
+    height: 100%;
+    width: 100%;
+    
+  }
+  .like-header{
+      padding-bottom: 50px;
+      display: flex;
+      padding-left: 50px;
+  }
+  .like-body-one{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+    background-color: rgba(134, 121, 104, 0.781);
+}
+.like-body{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    padding-left: 50px;
+    gap: 10px;
+}
