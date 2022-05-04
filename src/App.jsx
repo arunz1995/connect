@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Main from "./Components/Main";
 import Settings from "./Components/Settings";
 import Search from "./Components/Search";
+import Notification from "./Components/Notification";
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import React from 'react';
@@ -23,6 +24,7 @@ function App() {
     <Route path="Main" element={<Main/>}/>
     <Route path="Settings" element={<Settings/>}/>
     <Route path="Search" element={<Search/>}/>
+    <Route path="Notification" element={<Notification/>}/>
     </Routes>
     
     
