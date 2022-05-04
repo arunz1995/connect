@@ -9,6 +9,7 @@ import Search from "./Components/Search";
 import Notification from "./Components/Notification";
 import Comments from "./Components/Comments";
 import Likes from "./Components/Likes";
+import Personal from "./Components/Personal";
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import React from 'react';
@@ -29,6 +30,7 @@ function App() {
     <Route path="Notification" element={<Notification/>}/>
     <Route path="Comments" element={<Comments/>}/>
     <Route path="Likes" element={<Likes/>}/>
+    <Route path="Personal" element={<Personal/>}/>
     </Routes>
     
     

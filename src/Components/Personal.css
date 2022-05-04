@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html,body,#root{
+    height: 100%;
+  }
+  .personal-container{
+    background-color: #E1D5D5;
+    height: 100%;
+    width: 100%;
+    
+  }
